@@ -22,7 +22,7 @@
     
     // CalendarShowTypeMultiple 显示多月
     // CalendarShowTypeSingle   显示单月
-    GYZCalendarView *calendarView = [GYZCalendarView calendarWithDays:30 showType:CalendarShowTypeMultiple frame:self.view.frame selectEnable:YES showChineseCalendar:YES];
+    GYZCalendarView *calendarView = [GYZCalendarView calendarWithDays:365 showType:CalendarShowTypeMultiple frame:self.view.frame selectEnable:YES showChineseCalendar:NO];
     
     calendarView.calendarBlock = ^(GYZCalendarModel *model) {
         NSLog(@"%lu-%lu-%lu",(unsigned long)model.year,(unsigned long)model.month,(unsigned long)model.day);
