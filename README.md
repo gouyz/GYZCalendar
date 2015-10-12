@@ -22,10 +22,3 @@ NSLog(@"%lu-%lu-%lu",(unsigned long)model.year,(unsigned long)model.month,(unsig
 };
 
 [self.view addSubview:calendarView];
-
-
-#目录结构   
-Category    一些扩展的方法       
-Model       模型    
-Other       资源    
-View        视图
